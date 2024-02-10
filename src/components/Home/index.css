@@ -1,0 +1,92 @@
+.HomeContainer {
+  height: 100vh;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/home-lg-bg.png');
+  background-size: cover;
+}
+
+* {
+  margin: 0px;
+}
+
+.heading {
+  margin-left: 10vh;
+  font-size: 10vh;
+  color: #ffffff;
+  padding-top: 15vh;
+}
+
+.Discription {
+  color: #ffffff;
+  font-size: 5vh;
+  margin-left: 10vh;
+  padding-top: 2vh;
+}
+
+.findjobButton {
+  margin-left: 10vh;
+  margin-top: 10vh;
+  background-color: blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 6vh;
+  width: 10vw;
+  border-width: 0px;
+  color: #ffffff;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+/* Responsive CSS for Tablet (768px) */
+@media only screen and (max-width: 768px) {
+  .HomeContainer {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/home-sm-bg.png');
+  }
+
+  .heading {
+    margin-left: 5vh;
+    font-size: 8vh;
+    padding-top: 10vh;
+  }
+
+  .Discription {
+    font-size: 4vh;
+    margin-left: 5vh;
+    padding-top: 1vh;
+  }
+
+  .findjobButton {
+    margin-left: 5vh;
+    margin-top: 5vh;
+    width: 20vw;
+    height: 8vh;
+    border-radius: 5px;
+  }
+}
+
+/* Responsive CSS for Mobile (576px) */
+@media only screen and (max-width: 576px) {
+  .HomeContainer {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/home-sm-bg.png');
+  }
+
+  .heading {
+    margin-left: 3vh;
+    font-size: 6vh;
+    padding-top: 5vh;
+  }
+
+  .Discription {
+    font-size: 3vh;
+    margin-left: 3vh;
+    padding-top: 1vh;
+  }
+
+  .findjobButton {
+    margin-left: 3vh;
+    margin-top: 3vh;
+    width: 40vw;
+    height: 10vh;
+    border-radius: 5px;
+  }
+}

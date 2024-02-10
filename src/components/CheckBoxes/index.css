@@ -1,0 +1,33 @@
+.checkbox {
+  margin-left: 4vh;
+  list-style-type: none;
+  margin-top: 3vh;
+}
+
+.labeltext {
+  color: #ffffff;
+  margin-left: 1vh;
+  font-weight: 500;
+}
+
+/* Responsive CSS for Tablet (768px) */
+@media only screen and (max-width: 768px) {
+  .checkbox {
+    margin-left: 3vh; /* Adjust the margin for tablet */
+  }
+  
+  .labeltext {
+    margin-left: 0.5vh; /* Adjust the margin for tablet */
+  }
+}
+
+/* Responsive CSS for Mobile (576px) */
+@media only screen and (max-width: 576px) {
+  .checkbox {
+    margin-left: 2vh; /* Adjust the margin for mobile */
+  }
+  
+  .labeltext {
+    margin-left: 0.3vh; /* Adjust the margin for mobile */
+  }
+}

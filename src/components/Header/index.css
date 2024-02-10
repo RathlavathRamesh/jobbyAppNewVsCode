@@ -1,0 +1,83 @@
+.nav-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #202020;
+  height: 15vh;
+  padding: 10px;
+}
+
+.website-logo {
+  margin-top: 3vh;
+  margin-left: 2vh;
+  height: 6vh;
+}
+
+.logout-desktop-btn {
+  background-color: blue;
+  border-radius: 5px;
+  height: 5vh; /* Adjusted height for consistency */
+  margin-top: 3vh;
+  color: #ffffff;
+  border-width: 0px;
+}
+
+.nav-menu {
+  list-style-type: none;
+  display: flex;
+  padding: 5px;
+}
+
+.nav-link {
+  margin: 3vh;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Responsive CSS for Tablet (768px) */
+@media only screen and (max-width: 768px) {
+  .nav-content {
+    flex-direction: column;
+    align-items: center; /* Centering items for vertical display */
+    height: auto;
+  }
+
+  .website-logo {
+    margin-top: 2vh; /* Adjusted margin for logo */
+    margin-bottom: 2vh; /* Space between logo and menu items */
+  }
+
+  .logout-desktop-btn {
+    margin-top: 2vh; /* Adjusted margin for consistency */
+    margin-bottom: 2vh; /* Space between logout button and menu items */
+  }
+
+  .nav-link {
+    margin: 1vh; /* Adjusted margin for menu items */
+    font-size: 16px; /* Adjusted font size for smaller screens */
+  }
+}
+
+/* Responsive CSS for Mobile (576px) */
+@media only screen and (max-width: 576px) {
+  .nav-content {
+    padding: 5px;
+  }
+
+  .website-logo {
+    margin-top: 1vh; /* Adjusted margin for logo */
+    margin-left: 1vh;
+    height: 4vh; /* Adjusted height for smaller screens */
+  }
+
+  .logout-desktop-btn {
+    margin-top: 1vh; /* Adjusted margin for consistency */
+    margin-right: 1vh;
+    height: 4vh; /* Adjusted height for smaller screens */
+  }
+
+  .nav-menu {
+    display: none;
+  }
+}
